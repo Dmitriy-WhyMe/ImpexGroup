@@ -19,8 +19,8 @@ var path = {
 		css: './app/css/',
 		gulpfile: './gulpfile.js',
 		js: './app/js/',
-		jsLibs: ['./app/libs/Magnific-Popup-master/dist/jquery.magnific-popup.js', './app/libs/inputmask/dist/jquery.inputmask.bundle.js'],
-		cssLibs: ['./app/libs/Magnific-Popup-master/dist/magnific-popup.css', './app/libs/inputmask/css/inputmask.css'],
+		jsLibs: ['./app/libs/Magnific-Popup-master/dist/jquery.magnific-popup.js', './app/libs/inputmask/dist/jquery.inputmask.bundle.js', './app/libs/fancybox/dist/jquery.fancybox.min.js'],
+		cssLibs: ['./app/libs/Magnific-Popup-master/dist/magnific-popup.css', './app/libs/inputmask/css/inputmask.css', './app/libs/fancybox/dist/jquery.fancybox.min.css'],
 		deleteLibs: ['./app/js/libs.js', './app/css/libs.css']
 	}
 }

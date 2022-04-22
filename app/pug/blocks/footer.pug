@@ -2,7 +2,7 @@ footer.footer
     .call-popup(class="mfp-hide" id="call-popup")
         h3 Заказать звонок
         p Мы свяжемся с вами и ответим на любые<br> возникшие вопросы!
-        form(action="") 
+        form(action="" id="call") 
             .form__inputs
                 input(name="name" type="text" placeholder="Ваше имя")
                 input(name="phone" type="tel" placeholder="Ваш телефон")
@@ -11,14 +11,14 @@ footer.footer
                 a.btn(href="#" type="submit") Отправить
     .apply-popup(class="mfp-hide" id="apply-popup")
         h3 Оставить заявку
-        form(action="") 
+        form(action="" id="apply") 
             .form__inputs
                 input(name="name" type="text" placeholder="Ваше имя")
                 input(name="phone" type="tel" placeholder="Ваш телефон")
                 textarea(name="text", placeholder="Ваш заказ")
             .flex 
                 .form__prava Используя эту форму Вы выражаете согласие на <a href="#">условия передачи информации</a> и обработку ваших персональных данных. 
-                a.btn(href="#" type="submit") Отправить
+                a.btn(type="submit") Отправить
     .thanks-popup(class="mfp-hide" id="thanks-popup")
         h3 Спасибо за заявку
         p В ближайшее время с вами свяжутся
@@ -36,8 +36,8 @@ footer.footer
             a.footer__logo(href="#") 
                 img(src=img+"footer.png", alt="")
         .footer__column(class="col-2")
-            a.footer__tell(href="#") 8 (351) 750-25-50
-            a.footer__mail(href="#") sales@impecs-group.ru
+            a.footer__tell(href="tel:+83517502550") 8 (351) 750-25-50
+            a.footer__mail(href="mailto:sales@impecs-group.ru") sales@impecs-group.ru
             .footer__hr 
             .footer__social 
                 h4 Мы в соц. сетях
